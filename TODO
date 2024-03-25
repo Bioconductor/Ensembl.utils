@@ -1,4 +1,4 @@
 - Support AnnotationForge::makeOrgPackageFromNCBI(). Right now the function
   uses biomaRt to retrieve data from the Ensembl Mart. It should be able to
-  do retrieve the same data using Ensembl.utils instead.
+  retrieve the same data using Ensembl.utils instead.
 
