@@ -1,0 +1,18 @@
+Package: Ensembl.utils
+Title: Low-level utilities to retrieve data from Ensembl
+Description: A set of low-level utilities to retrieve data from Ensembl.
+	Note that the primary purpose of the package is to support
+	higher-level functionalities implemented in downstream packages
+	like GenomeInfoDb or AnnotationForge.
+biocViews: Infrastructure, GenomeAssembly, Annotation, GenomeAnnotation,
+	DataImport
+URL: https://bioconductor.org/packages/Ensembl.utils
+BugReports: https://github.com/Bioconductor/Ensembl.utils/issues
+Version: 0.0.0
+License: Artistic-2.0
+Encoding: UTF-8
+Authors@R: person("Hervé", "Pagès", role=c("aut", "cre"),
+	          email="hpages.on.github@gmail.com")
+Imports: methods, stats, httr, rjson, S4Vectors
+Suggests: DBI, RMariaDB, GenomeInfoDb, testthat, knitr, rmarkdown, BiocStyle
+VignetteBuilder: knitr
