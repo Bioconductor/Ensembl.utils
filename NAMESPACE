@@ -1,0 +1,12 @@
+import(methods)
+importFrom(stats, setNames)
+
+importFrom(S4Vectors, wmsg, isTRUEorFALSE, isSingleNumber,
+                      isSingleString, isSingleStringOrNA,
+                      toListOfIntegerVectors)
+
+export(
+    list_Ensembl_releases,
+    get_current_Ensembl_release
+)
+
